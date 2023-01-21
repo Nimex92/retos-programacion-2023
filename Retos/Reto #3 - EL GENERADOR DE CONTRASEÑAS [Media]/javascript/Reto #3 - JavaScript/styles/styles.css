@@ -1,0 +1,61 @@
+body {
+    font-size: 1.5rem;
+    background-color: rgb(227, 221, 221);
+}
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 1.5rem;
+}
+.program-container {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.password-container {
+    display: flex;
+    min-width: 100%;
+    flex-direction: column;
+}
+.password-options {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.password-lenght {
+    min-width: 100%;
+    display: flex;
+}
+
+
+
+#lenght-field {
+    width: 1.5rem;
+    border:none;
+    border-bottom: solid 1px rgb(128, 123, 123)
+}
+
+input[type="button"] {
+    width: 15rem;
+    height: 30px;
+    background-color: black;
+    color:white;
+    border:none;
+    text-align:center;
+    align-items: center;
+    display:inline-block;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+input[type="button"]:hover {
+    background-color: rgb(53, 53, 53);
+}
